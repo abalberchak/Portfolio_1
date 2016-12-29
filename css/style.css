@@ -63,8 +63,9 @@ header {
     height: 100%;
     width: 100%;
     left: 0;
+    top: 0;
     background-position: center;
-    position: relative;
+    position: auto;
     padding: 0;
 }
 
