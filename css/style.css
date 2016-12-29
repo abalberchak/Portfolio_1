@@ -1,0 +1,526 @@
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+
+body {
+	font-family:'Raleway', sans-serif; 
+	margin: 0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	letter-spacing: 2px;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 15px;
+}
+
+
+.container-fluid {
+	height: 100%;
+	padding: 0;
+}
+
+/*header {
+	background: url('../img/0a_b9g-rm6w-austin-neill.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    display: block;
+    overflow: auto;
+}*/
+
+
+header {
+	/*background: url('../img/0a_b9g-rm6w-austin-neill.jpg') no-repeat center center fixed;*/
+	background: url('../img/cfplr9zgnak-alberto-restifo.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-position: center;
+    position: relative;
+    padding: 0;
+}
+
+#cover {
+	width: 100%;
+	margin: 0;
+}
+
+.title {
+	margin-left: 50px;
+	text-align: center;
+}
+
+
+
+.content {
+	margin: 20px 50px 20px 50px;
+	/*margin: 0px;*/
+	text-align: center;
+	padding-top: 100px;
+	position: relative;
+}
+
+
+.content2 {
+	margin: 50px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.event {
+	/*font-family: 'Playfair Display', serif;*/
+	letter-spacing: 4px;
+	background-color: #efefef;
+	padding: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	/*width: 100%;*/	
+}
+
+.event img {
+	/*height: 100px;*/
+	width: 180px;
+ 	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow:         3px 3px 5px 6px #ccc;
+	border-radius: 2%;
+}
+
+.event_description {
+	font-family: 'Playfair Display', serif;
+	line-height: 200%;
+}
+
+.center_text {
+	text-align: center;
+}
+
+#about p {
+	line-height: 180%;
+}
+
+
+#technologies {
+	text-align: center;
+}
+
+#technologies p {
+	line-height: 50%;
+}
+
+
+#timeline {
+	margin-top: 100px;
+}
+
+#navigation {
+	background-color: #000000;
+	color: #ffffff;
+	opacity: 0.85;
+	padding: 30px 0px 30px;
+	width: inherit;
+	left: 0;
+	position: fixed;
+	display: block;
+	transition: opacity 0.8s ease;
+	transition: padding 0.8s ease;
+	/*overflow:auto;*/
+	z-index: 1;
+	clear: both;
+	/*margin: 0px !important;	*/
+
+}
+
+#navigation h3 {
+	display: inline-block;
+	font-weight: normal;
+}
+
+#navigation ul {
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+#navigation li {
+	display: inline-block;
+	position: top;
+	margin-right: 30px;
+	color: #ffffff;
+}
+
+
+#welcome {
+	display: block;
+	display: relative;
+	overflow: auto;
+	clear: both;
+	padding-top: 250px;
+	/*width: 20%;*/
+	/*background-color: #000000;*/
+}
+#banner {
+	text-align: center;
+	padding: 25px;
+	color: #ffffff;
+	background-color: #000000;
+	position: center;
+	margin: auto;
+	width: 180px;
+	opacity: 0.85;
+	border-radius: 60%;
+}
+
+#square {
+	width: 80px;
+	height: 20px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 60px solid #00ffff;
+	/*padding-top: 60px;*/
+
+}
+
+a {
+	text-decoration: none !important;
+	transition: color 0.6s ease;
+	color: #ffffff;
+
+}
+
+a:focus {
+	outline: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #00ffff;
+}
+
+#icons {
+	background-color: #000000;
+	text-align: center;
+	padding: 15px 15px;
+}
+
+.social_media {
+	display: inline-block;
+
+}
+
+#linkedin {
+	margin: 0px 20px;
+}
+
+.fa-linkedin {
+	font-size: 2em;
+}
+
+#github {
+	margin: 0px 20px;
+}
+
+.fa-github {
+	font-size: 2em;
+}
+
+#long-arrow-right {
+	margin: 0px 20px;
+}
+
+.fa-long-arrow-right {
+	font-size: 2em;
+}
+
+#soundcloud {
+	margin: 0px 20px;
+}
+
+.fa-soundcloud {
+	font-size: 2em;
+}
+
+#resume {
+	margin: 0px 20px;
+}
+
+.fa-file-text {
+	font-size: 2em;
+}
+
+#email {
+	margin: 0px 20px;
+}
+
+.fa-envelope-o {
+	font-size: 2em;
+}
+
+
+#copyrights {
+	padding: 20px;
+	/*width: 100%;*/
+}
+
+#copyrights a {
+	text-decoration: none;
+	transition: color 0.6s ease;
+	color: #000000;
+}
+
+#copyrights a:hover {
+	color: #00ffff;
+}
+
+.col-1 {
+	display: inline-block;
+	width: 33%;
+	float: left;
+	height: 220px;
+	position: relative;
+}
+
+.col-2 {
+	display: inline-block;
+	width: 34%;
+	float: center;
+	height: 220px;
+	position: relative;
+}
+
+.col-3 {
+	display: inline-block;
+	width: 33%;
+	float: right;
+	height: 220px;
+	position: relative;
+}
+
+#portfolio {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 150px;
+}
+
+/*.project {
+	width: 220px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #80ffff;
+}*/
+
+/*.cover {
+	width: 220px;
+	height: 220px;
+	background-color: none;
+}*/
+
+/*.cover_darken {
+	width: 220px;
+	height: 220px;
+	background-color: black;
+	opacity: 0.65;
+	transition: opacity 0.8s ease;
+}*/
+
+/*.hidden_text p {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.8s ease;
+	padding-top: 40%;
+}*/
+
+.project a {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.project {
+/*	width: 220px;*/
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #80ffff;
+	border: 1px solid black;
+	margin: 3px 0px;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+
+.cover_darken {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.80;
+	transition: opacity 0.8s ease;
+}
+
+
+
+
+
+.hidden_text p {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.8s ease;
+	padding-top: 100px;
+}
+
+.show_text p {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.8s ease;
+}
+
+.insurance_trainer {
+	background: url('../img/zenefits_insurance_trainer.png') no-repeat center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.touchface {
+	background: url('../img/amazon_echo.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.herbalfusion {
+	background: url('../img/herbal_fusion.png') no-repeat center;
+	background-size: cover;
+}
+
+.puzzlepic {
+	background: url('../img/puzzle_pic.png') no-repeat center;
+	background-size: cover;
+}
+
+.upcoming {
+	background: url('../img/cfplr9zgnak-alberto-restifo.jpg') no-repeat center;
+	background-size: cover;
+}
+
+/*.slick-prev:before, .slick-next:before { 
+    color:#000000 !important;
+}*/
+
+.anchor {
+	padding-top: 10px;
+	margin-top: -10px;
+}
+
+
+
+
+#portrait {
+	height: 180px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+
+/*Modal Design:*/
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+    z-index: 1000;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+    letter-spacing: 0px;
+}
+
+.popup-inner p {
+	margin: 20px 0px;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+button {
+	border-radius: 5px;
+	background-color: #000000;
+	opacity: 0.85;
+}
+
+
+
+
+/*Timeline Design:*/
+
+
+
+
