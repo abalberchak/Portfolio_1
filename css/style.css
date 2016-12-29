@@ -2,9 +2,13 @@
 html {
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
 
 body {
 	font-family:'Raleway', sans-serif; 
@@ -14,7 +18,7 @@ body {
 	width: 100%;
 	letter-spacing: 2px;
 	font-weight: normal;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 
@@ -53,7 +57,6 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 100%;
     background-attachment: scroll;
     height: 100%;
     width: 100%;
@@ -147,11 +150,8 @@ header {
 	display: block;
 	transition: opacity 0.8s ease;
 	transition: padding 0.8s ease;
-	/*overflow:auto;*/
 	z-index: 1;
 	clear: both;
-	/*margin: 0px !important;	*/
-
 }
 
 #navigation h3 {
