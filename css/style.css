@@ -46,10 +46,10 @@ p {
 header {
 	/*background: url('../img/0a_b9g-rm6w-austin-neill.jpg') no-repeat center center fixed;*/
 	background: url('../img/cfplr9zgnak-alberto-restifo.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     background-attachment: scroll;
     height: 100%;
     width: 100%;
