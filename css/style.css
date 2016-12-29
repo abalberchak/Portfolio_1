@@ -101,6 +101,11 @@ header {
 	text-align: center;
 }
 
+.subtitle {
+	text-align: center;
+	padding-top: 0px;
+}
+
 .event {
 	/*font-family: 'Playfair Display', serif;*/
 	letter-spacing: 4px;
